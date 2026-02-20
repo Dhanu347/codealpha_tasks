@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+    background: linear-gradient(135deg,rgb(247, 155, 124), rgb(227, 167, 4));
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.player{
+    background:rgb(242, 246, 19);
+    padding:20px;s
+    width:350px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.controls button{
+    padding:10px;
+    margin:5px;
+    cursor:pointer;
+    border:none;
+    background:rgb(118, 58, 2);
+    color:white;
+    border-radius:5px;
+}
+
+.controls button:hover{
+    background:rgb(235, 114, 9);
+}
+
+input[type="range"]{
+    width:100%;
+}
+
+.playlist div{
+    cursor:pointer;
+    padding:5px;
+}
+
+.playlist div:hover{
+    background:gray;
+}
